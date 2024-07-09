@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+/* font-family: 'Poppins', sans-serif; */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+/*banner css*/
+.banner
+{
+    width: 100%;
+    height: 90vh;
+   background-position: center;
+   background-size: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+}
+.bg-video{
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .bg-video{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    }
+
+
+.header
+{
+    height: 70px;
+    width:100% ;
+    
+    padding: 0% 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.logo
+{
+   
+    /* background-color: chartreuse;*/
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    width: 50px;
+    height: 30px;
+
+}
+
+
+
+.logo-text
+{
+    width: 80%;
+    
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight:bolder;
+}
+.nav
+{
+   width: 40%;
+   height: 70px;
+   /*background-color: cornflowerblue;*/
+}
+.nav-links
+{
+    width: 100%;
+    height: 70px;
+   /* background-color:deepskyblue;*/
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+
+.nav-link:hover
+{
+    background-color:  rgba(59, 224, 208, 0.5);;
+    padding: 5px 10px;
+    transition: .3s;
+
+}
+.nav-link1:hover
+{
+    background-color:  rgba(49, 231, 17, 0.909);;
+    padding: 5px 10px;
+    transition: .3s;
+
+}
+.nav-link2:hover
+{
+    background-color:  rgba(218, 236, 28, 0.918);;
+    padding: 5px 10px;
+    transition: .3s;
+
+}
+.nav-link3:hover
+{
+    background-color:  rgba(60, 23, 227, 0.909);;
+    padding: 5px 10px;
+    transition: .3s;
+
+}
+.nav-link
+{
+    
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link1
+{
+    color: rgb(229, 242, 44);
+    cursor: pointer;
+}
+.nav-link2
+{
+    color: rgb(63, 14, 143);
+    cursor: pointer;
+}
+.nav-link3
+{
+    color: rgb(169, 16, 16);
+    cursor: pointer;
+}
+/*banner details*/
+.banner-details
+{
+    width: 100%;
+    /*background-color: rgba(87, 236, 68, 0.671);*/
+    padding:20px 15% ;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.badge
+{
+   width: max-content;
+    padding: 10px 15px;
+   /* background-color:aliceblue;*/
+    font-family: 'Poppins';
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.banner-heading
+{
+    font-size:50px ;
+    font-family: 'Poppins';
+    color: white;
+    
+
+}
+.download-btn {
+     padding: 18px 30px;
+     font-size: 18px;
+     background-color: black;
+     color:white;
+     border: 1px solid black;
+     cursor: pointer;
+     border-radius: 30px;
+     
+
+}
+
+.download-btn:hover
+{
+    transition: 0.2s;
+    box-shadow: 0 0 100px rgba(232, 55, 35, 2);
+
+}
+
+
+
+.inp
+{
+    width: 115%;
+    display: flex;
+    flex-direction: row;
+    font-family:'poppins';
+    row-gap: 2px;
+
+    
+}
+.inp button {
+    margin-left: 10px
+    
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins';
+    font-weight: bolder;
+}
+
+.explore{
+    width: 30%;
+    margin: 0 auto;
+     
+}
+
+input
+{
+    height:30px ;
+    text-indent:5px ;
+    font-size: 16px;
+  
+
+}
+
+
+.SEA
+{ padding: 18px 30px;
+    font-size: 18px;
+    background-color: rgba(42, 130, 238,0.3);
+    color:white;
+    border: 1px solid rgb(52, 92, 225);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.SEA:hover
+{
+    transition: 0.2s;
+    box-shadow: 0 0 100px rgb(33, 125, 211,50); 
+
+}
+
+.Mountain
+{
+    padding: 18px 30px;
+     font-size: 18px;
+     background-color: rgba(134, 91, 11,0.3);
+     color:white;
+     border: 1px solid rgb(188, 106, 18);
+     cursor: pointer;
+     border-radius: 8px;   
+}
+
+.Mountain:hover
+{
+    transition: 0.2s;
+    box-shadow: 0 0 100px rgb(230, 165, 36,2); 
+}
+
+.Forest{
+    padding: 18px 30px;
+    font-size: 18px;
+    background-color: rgba(23, 143, 49,0.3);
+    color:white;
+    border: 1px solid rgb(34, 160, 95);
+    cursor: pointer;
+    border-radius: 8px;   
+}
+.Forest:hover
+{
+    transition: 0.2s;
+    box-shadow: 0 0 100px rgb(14, 186, 97,2); 
+}
+
+.Desert{
+    padding: 18px 30px;
+    font-size: 18px;
+    background-color: rgba(214, 214, 25,0.3);
+    color:white;
+    border: 1px solid rgb(147, 160, 34);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Desert:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 100px rgb(180, 218, 46,2);
+}
